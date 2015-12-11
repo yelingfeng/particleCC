@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>cc</title>
+    <style>
+
+        * {
+            margin: 0;
+            height:100%;
+        }
+
+        body {
+            font:100%/1.5 "Microsoft YaHei",Helvetica,Arial,sans-serif
+        }
+
+        #wrapper{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            border:1px solid #ccc;
+            background: #e4f4f3;
+        }
+
+        .home{
+            display: table;
+            overflow: hidden;
+        }
+
+        .home canvas{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+    </style>
+</head>
+<body>
+
+<div id="wrapper" class="home">
+</div>
+<script src="js/require.js" data-main="js/index.js"></script>
+</body>
+</html>
